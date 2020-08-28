@@ -14,7 +14,7 @@ import java.util.List;
 public class OrderRequest {
     @NotBlank
     @NotNull
-    @ApiModelProperty(notes = "Account Id", example = "999999", required = true)
+    @ApiModelProperty(notes = "Account Id", example = "99999", required = true)
     String accountId;
 
     @ApiModelProperty(notes = "Items included in the order", required = true )

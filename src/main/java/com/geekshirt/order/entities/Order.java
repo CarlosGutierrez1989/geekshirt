@@ -1,4 +1,4 @@
-package com.geekshirt.order.dto;
+package com.geekshirt.order.entities;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -7,12 +7,11 @@ import java.util.Date;
 
 @Getter
 @Setter
-public class OrderResponse {
-
+public class Order {
     private String orderId;
     private String status;
     private String accountId;
     private Double totalAmount;
     private Double totalTax;
-    private Date   transactionDate;
+    private Date transactionDate;
 }
